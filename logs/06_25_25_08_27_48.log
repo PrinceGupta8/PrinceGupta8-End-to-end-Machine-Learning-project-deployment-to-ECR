@@ -1,0 +1,156 @@
+2025-06-25 08:28:30,683 - 97 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.222:5000
+2025-06-25 08:28:30,683 - 97 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 08:31:55,594 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:31:55] "GET / HTTP/1.1" 200 -
+2025-06-25 08:32:02,459 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:32:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 08:32:19,265 - 875 - app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 20, in predictdata
+    return render_template('home.html')
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\templates\home.html", line 6, in top-level template code
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "D:\Generative ai\aienv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 38, in predictdata
+    raise CustomException(e,sys)
+src.Exception.CustomException: Error occured in the file C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py, at the line 20, the error message: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+2025-06-25 08:32:19,409 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:32:19] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+2025-06-25 08:32:59,781 - 875 - app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 20, in predictdata
+    return render_template('home.html')
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\templates\home.html", line 6, in top-level template code
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "D:\Generative ai\aienv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 38, in predictdata
+    raise CustomException(e,sys)
+src.Exception.CustomException: Error occured in the file C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py, at the line 20, the error message: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+2025-06-25 08:32:59,797 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:32:59] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+2025-06-25 08:38:11,556 - 875 - app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 20, in predictdata
+    return render_template('home.html')
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\templates\home.html", line 6, in top-level template code
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "D:\Generative ai\aienv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 38, in predictdata
+    raise CustomException(e,sys)
+src.Exception.CustomException: Error occured in the file C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py, at the line 20, the error message: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+2025-06-25 08:38:11,559 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:38:11] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+2025-06-25 08:42:59,047 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:42:59] "GET / HTTP/1.1" 200 -
+2025-06-25 08:43:10,470 - 875 - app - ERROR - Exception on /predictdata [GET]
+Traceback (most recent call last):
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 20, in predictdata
+    return render_template('home.html')
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "D:\Generative ai\aienv\lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\templates\home.html", line 6, in top-level template code
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "D:\Generative ai\aienv\lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Generative ai\aienv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py", line 38, in predictdata
+    raise CustomException(e,sys)
+src.Exception.CustomException: Error occured in the file C:\Users\Practice DA\2-ML\3- Module 48 Practice\app.py, at the line 20, the error message: Could not build url for endpoint 'predict_datapoint'. Did you mean 'predictdata' instead?
+2025-06-25 08:43:10,472 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 08:43:10] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -

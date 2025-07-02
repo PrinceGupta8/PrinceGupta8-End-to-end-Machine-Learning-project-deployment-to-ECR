@@ -1,0 +1,8 @@
+2025-06-25 09:54:21,739 - 97 - werkzeug - WARNING -  * Debugger is active!
+2025-06-25 09:54:21,768 - 97 - werkzeug - INFO -  * Debugger PIN: 652-873-769
+2025-06-25 10:28:03,246 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\app.py', reloading
+2025-06-25 10:28:03,259 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\app.py', reloading
+2025-06-25 10:28:03,691 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\setup.py', reloading
+2025-06-25 10:28:03,706 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\setup.py', reloading
+2025-06-25 10:28:03,769 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\data_transformation.py', reloading
+2025-06-25 10:28:03,774 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\data_transformation.py', reloading

@@ -1,0 +1,39 @@
+2025-06-25 09:45:44,296 - 97 - werkzeug - WARNING -  * Debugger is active!
+2025-06-25 09:45:44,328 - 97 - werkzeug - INFO -  * Debugger PIN: 652-873-769
+2025-06-25 09:45:44,499 - 97 - werkzeug - WARNING -  * Debugger is active!
+2025-06-25 09:45:44,531 - 97 - werkzeug - INFO -  * Debugger PIN: 652-873-769
+2025-06-25 09:45:44,635 - 97 - werkzeug - WARNING -  * Debugger is active!
+2025-06-25 09:45:44,666 - 97 - werkzeug - INFO -  * Debugger PIN: 652-873-769
+2025-06-25 09:46:33,403 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 09:46:33] "GET /predictdata HTTP/1.1" 200 -
+2025-06-25 09:46:47,080 - 32 - root - INFO - data is converted to dataframe
+2025-06-25 09:46:47,210 - 54 - root - INFO - Before preprocessing
+2025-06-25 09:46:47,365 - 57 - root - INFO - After preprocessing
+2025-06-25 09:46:47,365 - 35 - root - INFO - prediction is completed!
+2025-06-25 09:46:47,366 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 09:46:47] "POST /predictdata HTTP/1.1" 200 -
+2025-06-25 09:48:11,580 - 32 - root - INFO - data is converted to dataframe
+2025-06-25 09:48:11,581 - 54 - root - INFO - Before preprocessing
+2025-06-25 09:48:11,606 - 57 - root - INFO - After preprocessing
+2025-06-25 09:48:11,606 - 35 - root - INFO - prediction is completed!
+2025-06-25 09:48:11,607 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 09:48:11] "POST /predictdata HTTP/1.1" 200 -
+2025-06-25 09:51:14,053 - 32 - root - INFO - data is converted to dataframe
+2025-06-25 09:51:14,053 - 54 - root - INFO - Before preprocessing
+2025-06-25 09:51:14,070 - 57 - root - INFO - After preprocessing
+2025-06-25 09:51:14,070 - 35 - root - INFO - prediction is completed!
+2025-06-25 09:51:14,085 - 97 - werkzeug - INFO - 127.0.0.1 - - [25/Jun/2025 09:51:14] "POST /predictdata HTTP/1.1" 200 -
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Practice DA\\2-ML\\3- Module 48 Practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
+2025-06-25 09:52:08,536 - 97 - werkzeug - INFO -  * Detected change in 'c:\\users\\practice da\\2-ml\\3- module 48 practice\\src\\Components\\model_trainer.py', reloading
