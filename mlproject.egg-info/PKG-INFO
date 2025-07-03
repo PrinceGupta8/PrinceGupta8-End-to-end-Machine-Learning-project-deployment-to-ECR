@@ -1,0 +1,37 @@
+Metadata-Version: 2.2
+Name: mlproject
+Version: 0.0.1
+Summary: This is production label end to end machine learning project
+Home-page: https://github.com/PrinceGupta8/MLPROJECT.git
+Author: Prince Gupta
+Author-email: princegupta878721@gmail.com
+Classifier: p
+Classifier: y
+Classifier: t
+Classifier: h
+Classifier: o
+Classifier: n
+Classifier:  
+Classifier: L
+Classifier: a
+Classifier: n
+Classifier: g
+Classifier: u
+Classifier: a
+Classifier: g
+Classifier: e
+Classifier:  
+Classifier: :
+Classifier: 3
+Description-Content-Type: Markdown
+Requires-Dist: Pandas
+Requires-Dist: Numpy
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary

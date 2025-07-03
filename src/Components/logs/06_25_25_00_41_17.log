@@ -1,0 +1,4 @@
+2025-06-25 00:41:17,595 - 162 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2025-06-25 00:41:19,865 - 27 - root - INFO - data is divided in train and test
+2025-06-25 00:41:19,896 - 75 - root - INFO - Model is saved
+2025-06-25 00:42:44,934 - 98 - root - INFO - Best model is found
