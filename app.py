@@ -7,6 +7,7 @@ from src.logger import logging
 from flask import Flask
 from flask import render_template,redirect,request
 
+
 application=Flask(__name__)
 app=application
 @app.route('/')
