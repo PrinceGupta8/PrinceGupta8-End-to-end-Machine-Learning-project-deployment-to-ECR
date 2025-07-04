@@ -149,7 +149,7 @@ User Input Form → CustomData class → DataFrame → PredictionPipeline → Tr
 **Prince Gupta**
 AI Engineer | ML Developer | Tech Visionary
 📧 [princegupta995643@gmail.com](mailto:princegupta995643@gmail.com)
-🔗 [LinkedIn]([https://www.linkedin.com/in/prince-gupta-a8129a209/])
+🔗 [LinkedIn](https://www.linkedin.com/in/prince-gupta-a8129a209/)
 
 ---
 
