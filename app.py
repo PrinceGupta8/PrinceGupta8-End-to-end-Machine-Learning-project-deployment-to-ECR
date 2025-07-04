@@ -6,6 +6,7 @@ from src.Exception import CustomException
 from src.logger import logging
 from flask import Flask
 from flask import render_template,redirect,request
+import traceback
 
 
 application=Flask(__name__)
@@ -37,6 +38,7 @@ def predict_datapoint():
             return render_template('home.html',results=result[0])
     except Exception as e:
         logging.error("Exception occurred in /predictdata route", exc_info=True)
+        traceback.print_exc()
         return "Internal Server Error", 500
 
     

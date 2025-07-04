@@ -1,0 +1,19 @@
+2025-07-04 07:36:07,829 - 97 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.222:8080
+2025-07-04 07:36:07,830 - 97 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-04 07:46:43,631 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:46:43] "GET / HTTP/1.1" 200 -
+2025-07-04 07:46:59,774 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:46:59] "[33mGET /HNAP1/ HTTP/1.1[0m" 404 -
+2025-07-04 07:47:00,114 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:47:00] "[31m[1mGET / HTTP/1.1[0m" 400 -
+2025-07-04 07:47:00,147 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:47:00] "[33mGET /loginMsg.js HTTP/1.1[0m" 404 -
+2025-07-04 07:47:00,177 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:47:00] "[33mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 404 -
+2025-07-04 07:47:00,440 - 97 - werkzeug - INFO - 192.168.229.158 - - [04/Jul/2025 07:47:00] "[33mPOST /boaform/formPing HTTP/1.1[0m" 404 -
+2025-07-04 08:41:17,688 - 97 - werkzeug - INFO - 127.0.0.1 - - [04/Jul/2025 08:41:17] "GET / HTTP/1.1" 200 -
+2025-07-04 08:41:18,413 - 97 - werkzeug - INFO - 127.0.0.1 - - [04/Jul/2025 08:41:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 08:41:37,630 - 97 - werkzeug - INFO - 127.0.0.1 - - [04/Jul/2025 08:41:37] "GET /predictdata HTTP/1.1" 200 -
+2025-07-04 08:41:54,656 - 33 - root - INFO - data is converted to dataframe
+2025-07-04 08:41:58,188 - 54 - root - INFO - Before preprocessing
+2025-07-04 08:42:00,003 - 57 - root - INFO - After preprocessing
+2025-07-04 08:42:00,031 - 36 - root - INFO - prediction is completed!
+2025-07-04 08:42:00,033 - 97 - werkzeug - INFO - 127.0.0.1 - - [04/Jul/2025 08:42:00] "POST /predictdata HTTP/1.1" 200 -
