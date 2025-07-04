@@ -36,7 +36,9 @@ def predict_datapoint():
             logging.info('prediction is completed!')
             return render_template('home.html',results=result[0])
     except Exception as e:
-        raise CustomException(e,sys)
+        logging.error("Exception occurred in /predictdata route", exc_info=True)
+        return "Internal Server Error", 500
+
     
 
 if __name__=='__main__':
